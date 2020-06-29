@@ -45,11 +45,31 @@ city=[["东城","西城","朝阳","丰台","石景山","海淀","门头沟","房
       ["澳门"],
       ["台北","基隆","台南","台中","高雄","屏东","南投","云林","新竹","彰化","苗栗","嘉义","花莲","桃园","宜兰","台东","金门","马祖","澎湖"],
       ["俄罗斯","美国","日本","英国","法国","德国","澳大利亚","东南亚","阿拉伯半岛","非洲","南美洲"]];
-    var pro 
+    var pro = document.getElementById("pro");
+    var city = document.getElementById("city");
+    for(var i = 0;i<province.length;i++){
+        pro.add(new Option(province[i]));
+    }
+
+//获取点击的省份的下标
+function getIndex(){
+  for(var i=0;i<province.length;i++)
+    if(province[i]==pro.value)
+      return i;
+}
+ 
+//根据获取的省份下标，更改二级列表为对应下标的城市列表，此即二级联动
+function addCity(e){
+    var index=getIndex();
+    e.options.length=0;
+    for (var i = 0; i < city[index].length; i++)
+        e.add(new Option(city[index][i]));
+}
 </script>
 <body>
     <select id="pro" onchange="addCity();"></select>
-    <select name="" id="city"></select>
+
+    <select id="city"></select>
     
 </body>
 </html>
