@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--&lt;!&ndash;    byName&ndash;&gt;-->
+<!--    <bean id="cat" class="com.pojo.cat"/>-->
+<!--    <bean id="dog" class="com.pojo.dog"/>-->
+<!--    -->
+<!--&lt;!&ndash;    byType&ndash;&gt;-->
+<!--    <bean class="com.pojo.cat"/>-->
+<!--    <bean class="com.pojo.dog"/>-->
+<!--&lt;!&ndash;-->
+<!--    使用xml配置进行配置-->
+<!--    byNmae会自动在容器上下文中查找和自己对象set方法后面的值对应的beanid（需要保证beanid唯一，且和set方法中的值唯一-->
+<!--    byType会自动在容器上下文中查找和自己对象属性类型相同的bean（需要保证set方法中的参数类型一致-->
+<!--&ndash;&gt;-->
+<!--    <bean id="people" class="com.pojo.Person" autowire="byName">-->
+<!--        <property name="name"  value="Ork"/>-->
+<!--    </bean>-->
+
+<!--    基于注解实现自动装配-->
+<!--    ① 添加依赖
+        ② 添加约束
+-->
+    <!--    开启注解的支持-->
+    <context:annotation-config></context:annotation-config>
+
+    <bean id="dog" class="com.pojo.dog"/>
+    <bean id="cat" class="com.pojo.cat"/>
+    <bean id="person" class="com.pojo.Person"/>
+</beans>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-06-mybatis" />
+        <module name="spring-04-proxy" />
+        <module name="Spring-03-appconfig" />
+        <module name="spring-07-transaction" />
+        <module name="Springdemo" />
+        <module name="spring-01-annoaction" />
+        <module name="spring-autowired-01" />
+        <module name="spring-05-aop-01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="spring-01-annoaction" target="1.8" />
+      <module name="Spring-03-appconfig" target="1.8" />
+      <module name="spring-04-proxy" target="1.8" />
+      <module name="spring-05-aop-01" target="1.8" />
+      <module name="spring-06-mybatis" target="1.8" />
+      <module name="spring-07-transaction" target="1.8" />
+      <module name="spring-autowired-01" target="1.8" />
+      <module name="Springdemo" target="1.8" />
+      <module name="springioc01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-03-appconfig" options="-parameters" />
+      <module name="Springdemo" options="-parameters" />
+      <module name="spring-01-annoaction" options="-parameters" />
+      <module name="spring-04-proxy" options="-parameters" />
+      <module name="spring-05-aop-01" options="-parameters" />
+      <module name="spring-06-mybatis" options="-parameters" />
+      <module name="spring-07-transaction" options="-parameters" />
+      <module name="spring-autowired-01" options="-parameters" />
+    </option>
+  </component>
+</project>

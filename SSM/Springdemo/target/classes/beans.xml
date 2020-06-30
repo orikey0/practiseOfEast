@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="userDao" class="com.ori.pojo.ioc.UserDaoImpl"></bean>
+    <bean id="mysqlImpl" class="com.ori.pojo.ioc.UserDaoMysqlImpl"/>
+    <bean id="OracelImpl" class="com.ori.pojo.ioc.UserDaoOracleImpl"/>
+    <bean id="UserServiceImpl" class="com.ori.control.UserServiceImpl">
+        <property name="user"  ref="mysqlImpl"/>
+    </bean>
+<!--        id 别名
+            class bean对象对应的全限定名
+            name 也是别名，而且可以通过,;进行分割
+
+-->
+    <bean id="user" class="com.ori.pojo.ioc.User" name="user2">
+<!--        构造器注入-->
+        <constructor-arg name="age" value="18"/>
+        <constructor-arg name="name" value="Ori"/>
+    </bean>
+    <alias name="userDao" alias="dao"/>
+<!--    import可以以将多个xml组织到一个里面去-->
+
+
+    <bean id="Address" class="com.ori.pojo.di.Address">
+        <property name="address"   value="192.168.1.1"/>
+    </bean>
+    <bean id="student" class="com.ori.pojo.di.Student">
+<!--        普通注入-->
+        <property name="name"   value="OriKey"/>
+<!--        Bean注入-->
+        <property name="address"   ref="Address"/>
+<!--        数组注入-->
+        <property name="books">
+            <array>
+                <value>红龙</value>
+                <value>水浒</value>
+                <value>三国</value>
+            </array>
+        </property>
+<!--        List集合注入-->
+        <property name="hobbys">
+            <list>
+                <value>sing</value>
+                <value>movies</value>
+                <value>coding</value>
+            </list>
+        </property>
+<!--        Map注入-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="12345"/>
+                <entry key="银行卡" value="715456546544"/>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>COC</value>
+            </set>
+        </property>
+        <property name="wife"><null></null></property>
+        <property name="info">
+            <props>
+                <prop key="学号">201701060715</prop>
+                <prop key="card">23432</prop>
+                <prop key="sex">man</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
