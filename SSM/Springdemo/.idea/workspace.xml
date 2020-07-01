@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56cd365-c2c0-4e5a-bcd9-5209f41e974c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-07-transaction/src/main/java/com/Mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-07-transaction/src/main/java/com/Mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-07-transaction/src/main/java/com/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-07-transaction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AjaxDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AjaxDemo/src/main/java/Pojo/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AjaxDemo/src/main/java/Servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/AjaxDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/Bootstraps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/JqueryTest.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,6 +264,7 @@
       <workItem from="1593519263740" duration="46000" />
       <workItem from="1593521521003" duration="78000" />
       <workItem from="1593562888867" duration="89000" />
+      <workItem from="1593570034948" duration="59000" />
     </task>
     <servers />
   </component>
@@ -341,12 +343,12 @@
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state x="428" y="166" width="602" height="532" key="find.popup/0.0.1458.864@0.0.1458.864" timestamp="1593446085522" />
-    <state x="278" y="0" key="new project wizard" timestamp="1593412185272">
+    <state x="278" y="0" key="new project wizard" timestamp="1593570096397">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1458.864/1920.0.1024.1240@0.0.1458.864" timestamp="1592394708357" />
     <state x="1920" y="207" key="new project wizard/0.0.1458.864/1920.0.1024.1240@1920.0.1024.1240" timestamp="1592486212852" />
-    <state x="278" y="0" key="new project wizard/0.0.1458.864@0.0.1458.864" timestamp="1593412185272" />
+    <state x="278" y="0" key="new project wizard/0.0.1458.864@0.0.1458.864" timestamp="1593570096397" />
     <state x="392" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1593396765648">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
