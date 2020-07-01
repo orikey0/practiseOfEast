@@ -5,33 +5,34 @@
     <title>Ajax</title>
 </head>
 <script typet="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-<body>
-    <form>
-        名称：<input type="text" id="name"><p></p>
-        血量：<input type="text" id="hp"><p></p>
-        <input type="button"  id="sender" value="提交">
+<script type="text/javascript">
+    window.onload = function f() {
+        var mydate = new Date();
+        document.getElementById('currentTime').innerText = mydate.getDate();
 
-    </form>
-    <div id="messageDiv"></div>
-    <script>
-        $('#sender').click(function () {
-            var name = document.getElementById('name').value;
-            var hp = document.getElementById('hp').value;
-            var hero = {
-                "name":name,
-                "hp":hp
-            };
-            var url = "Ajax";
-            $.post(
-                url,
-                {
-                    "data":JSON.stringify(hero)
-                },
-                function(data) {
-                    alert("提交成功，tomcat控制台查看");
-                }
-            )
-        });
-    </script>
+    }
+    function loadPage() {
+        var target = document.getElementById('url').value;
+        console.log(target);
+        document.getElementById('iframePosition').src = target
+    }
+</script>
+<body>
+    <div>
+        <span id="currentTime"></span>
+    </div>
+    <div>
+        <p>请输入要加载的地址:</p>
+        <p><input type="text" name="" id="url" value="https://www.baidu.com/">
+            <input type="button" name="" id="" value="提交" onclick="loadPage()">
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            加载页面的位置
+        </h3>
+        <iframe style="width: 100%;height: 500px" id="iframePosition"></iframe>
+    </div>
 </body>
 </html>
