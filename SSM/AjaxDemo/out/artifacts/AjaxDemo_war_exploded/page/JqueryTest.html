@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JqueryTest</title>
+</head>
+<script typet="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+    $(function () {
+        //#id  --- by id
+        //.id ---> by class
+        //在页面标签加载完毕之后执行
+        $('#first').css('backgroundColor','red');
+    })
+    $(function () {
+        //赋值
+        $('#userSpan').text("用户名：User");
+        //取值
+        $('#userSpan').text();
+    })
+</script>
+<!--onload 表示当页面全部加载完之后在执行相应的函数-->
+<body onload="">
+    <h1 id="first">h11</h1>
+
+    <span id="userSpan">用户名不能为空</span>
+</body>
+</html>
