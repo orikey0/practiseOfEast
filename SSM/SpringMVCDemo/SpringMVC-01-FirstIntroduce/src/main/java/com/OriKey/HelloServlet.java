@@ -17,7 +17,7 @@ public class HelloServlet extends HttpServlet {
 //        1.获取前端参数
         String method = req.getParameter("method");
 
-            req.getSession().setAttribute("msg", "输入的参数是"+method);
+        req.getSession().setAttribute("msg", "输入的参数是"+method);
 
 //        2.调用业务层函数
 //        3.返回相应的界面

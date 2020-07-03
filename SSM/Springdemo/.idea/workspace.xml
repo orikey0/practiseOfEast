@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56cd365-c2c0-4e5a-bcd9-5209f41e974c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/src/main/java/Pojo/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/src/main/java/Servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/AjaxDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/Bootstraps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/JqueryTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-hellomvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-hellomvc/src/main/java/com/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-hellomvc/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-hellomvc/web/WEB-INF/jsp/Hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-hellomvc/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-repeat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-repeat/src/main/java/com/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-repeat/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-repeat/web/WEB-INF/page/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-02-repeat/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-03-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-03-annotation/src/main/java/com/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-03-annotation/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-03-annotation/web/WEB-INF/jsp/Hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-03-annotation/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-01-FirstIntroduce/src/main/java/com/OriKey/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-01-FirstIntroduce/src/main/java/com/OriKey/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-01-FirstIntroduce/src/main/resources/简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-01-FirstIntroduce/src/main/resources/简介.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,6 +277,7 @@
       <workItem from="1593521521003" duration="78000" />
       <workItem from="1593562888867" duration="89000" />
       <workItem from="1593570034948" duration="59000" />
+      <workItem from="1593761291634" duration="22000" />
     </task>
     <servers />
   </component>

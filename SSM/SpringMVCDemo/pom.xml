@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>SpringMVC-01-FirstIntroduce</module>
+        <module>SpringMVC-02-hellomvc</module>
+        <module>SpringMVC-02-repeat</module>
+        <module>SpringMVC-03-annotation</module>
     </modules>
 
 
