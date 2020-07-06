@@ -34,6 +34,7 @@ public class AjaxController {
             response.getWriter().println("false");
         }
     }
+
     @RequestMapping("/a2")
     public List<User> a2(){
         List<User> res = new LinkedList<User>();
@@ -43,4 +44,5 @@ public class AjaxController {
         res.add(new User("lihofasdfuhua",123,"男"));
         return res;
     }
+
 }

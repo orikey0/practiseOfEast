@@ -16,6 +16,7 @@
         <module>SpringMVC-04-controller</module>
         <module>SpringMVC-05-json</module>
         <module>SpringMVC-06-ajax</module>
+        <module>fistrBuildSSM</module>
     </modules>
     <dependencies>
         <dependency>

@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56cd365-c2c0-4e5a-bcd9-5209f41e974c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/java/com/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/java/com/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/java/com/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/test/java/com/MyTest/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/web/WEB-INF/jsp/allBook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/controller/CodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/filter/encodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/web/WEB-INF/jsp/test1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/web/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/controller/JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/util/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/resources/springmvc-json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/web/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/src/main/java/com/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/src/main/java/com/pojo/dingdan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/fistrBuildSSM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/JSDemo/Json.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/src/main/java/com/controller/AjaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/src/main/java/com/controller/AjaxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/web/usertable.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-06-ajax/web/usertable.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -97,7 +72,7 @@
       <recent name="F:\java_workspace\SpringEcology\Spring\demo\spring-annoaction-01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Springdemo">
+  <component name="RunManager" selected="JUnit.MyTest.test_UserMapper_2">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.proxy.demo02.Client" />
       <module name="spring-04-proxy" />
@@ -296,6 +271,7 @@
       <workItem from="1593761291634" duration="22000" />
       <workItem from="1593781602169" duration="23000" />
       <workItem from="1593924373122" duration="92000" />
+      <workItem from="1594001285175" duration="907000" />
     </task>
     <servers />
   </component>
@@ -326,26 +302,26 @@
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state x="510" y="187" key="FileChooserDialogImpl/0.0.1458.864@0.0.1458.864" timestamp="1593519061040" />
-    <state width="1415" height="184" key="GridCell.Tab.0.bottom" timestamp="1593478600351">
+    <state width="1415" height="267" key="GridCell.Tab.0.bottom" timestamp="1594002192978">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state width="981" height="424" key="GridCell.Tab.0.bottom/0.0.1458.864/1920.0.1024.1240@1920.0.1024.1240" timestamp="1592486575882" />
-    <state width="1415" height="184" key="GridCell.Tab.0.bottom/0.0.1458.864@0.0.1458.864" timestamp="1593478600351" />
-    <state width="1415" height="184" key="GridCell.Tab.0.center" timestamp="1593478600350">
+    <state width="1415" height="267" key="GridCell.Tab.0.bottom/0.0.1458.864@0.0.1458.864" timestamp="1594002192978" />
+    <state width="1415" height="267" key="GridCell.Tab.0.center" timestamp="1594002192978">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state width="981" height="424" key="GridCell.Tab.0.center/0.0.1458.864/1920.0.1024.1240@1920.0.1024.1240" timestamp="1592486575882" />
-    <state width="1415" height="184" key="GridCell.Tab.0.center/0.0.1458.864@0.0.1458.864" timestamp="1593478600350" />
-    <state width="1415" height="184" key="GridCell.Tab.0.left" timestamp="1593478600310">
+    <state width="1415" height="267" key="GridCell.Tab.0.center/0.0.1458.864@0.0.1458.864" timestamp="1594002192978" />
+    <state width="1415" height="267" key="GridCell.Tab.0.left" timestamp="1594002192978">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state width="981" height="424" key="GridCell.Tab.0.left/0.0.1458.864/1920.0.1024.1240@1920.0.1024.1240" timestamp="1592486575882" />
-    <state width="1415" height="184" key="GridCell.Tab.0.left/0.0.1458.864@0.0.1458.864" timestamp="1593478600310" />
-    <state width="1415" height="184" key="GridCell.Tab.0.right" timestamp="1593478600350">
+    <state width="1415" height="267" key="GridCell.Tab.0.left/0.0.1458.864@0.0.1458.864" timestamp="1594002192978" />
+    <state width="1415" height="267" key="GridCell.Tab.0.right" timestamp="1594002192978">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state width="981" height="424" key="GridCell.Tab.0.right/0.0.1458.864/1920.0.1024.1240@1920.0.1024.1240" timestamp="1592486575882" />
-    <state width="1415" height="184" key="GridCell.Tab.0.right/0.0.1458.864@0.0.1458.864" timestamp="1593478600350" />
+    <state width="1415" height="267" key="GridCell.Tab.0.right/0.0.1458.864@0.0.1458.864" timestamp="1594002192978" />
     <state width="1415" height="249" key="GridCell.Tab.1.bottom" timestamp="1593446036945">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
@@ -370,11 +346,11 @@
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state x="231" y="76" key="SettingsEditor/0.0.1458.864@0.0.1458.864" timestamp="1593416769276" />
-    <state x="428" y="166" width="602" height="532" key="find.popup" timestamp="1593924459103">
+    <state x="428" y="166" width="602" height="532" key="find.popup" timestamp="1594001969835">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state x="428" y="166" width="602" height="532" key="find.popup/0.0.1458.864/1920.0.1024.1240@0.0.1458.864" timestamp="1593924459103" />
-    <state x="428" y="166" width="602" height="532" key="find.popup/0.0.1458.864@0.0.1458.864" timestamp="1593446085522" />
+    <state x="428" y="166" width="602" height="532" key="find.popup/0.0.1458.864@0.0.1458.864" timestamp="1594001969835" />
     <state x="278" y="0" key="new project wizard" timestamp="1593570096397">
       <screen x="0" y="0" width="1458" height="864" />
     </state>

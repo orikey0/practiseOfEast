@@ -2,6 +2,7 @@ package com.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.support.spring.FastjsonSockJsMessageCodec;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -30,6 +31,7 @@ public class JsonController {
     }
     @RequestMapping("/json2")
     public String test_json2() {
+
         User user = new User("厉害",123,"男");
         User user1 = new User("厉害",123,"男");
         User user2 = new User("厉害",123,"男");
@@ -49,5 +51,6 @@ public class JsonController {
 //        JSON对象转化为Java对象
         User to_java_usr = JSON.toJavaObject(jsonObject, User.class);
         return JSON.toJSONString(lists);
+
     }
 }
