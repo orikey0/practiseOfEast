@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fistrBuildSSM" />
+        <module name="SpringMVC-02-repeat" />
+        <module name="SpringMVC-02-hellomvc" />
+        <module name="SpringMVC-06-ajax" />
+        <module name="SpringMVC-03-annotation" />
+        <module name="SpringMVC-04-controller" />
+        <module name="SpringMVC-05-json" />
+        <module name="SpringMVC-01-Servlet" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="fistrBuildSSM" target="1.5" />
+      <module name="SpringMVC-01-Servlet" target="1.5" />
+      <module name="SpringMVC-02-hellomvc" target="1.5" />
+      <module name="SpringMVC-02-repeat" target="1.5" />
+      <module name="SpringMVC-03-annotation" target="1.5" />
+      <module name="SpringMVC-04-controller" target="1.5" />
+      <module name="SpringMVC-05-json" target="1.5" />
+      <module name="SpringMVC-06-ajax" target="1.5" />
+      <module name="SpringMVCDemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

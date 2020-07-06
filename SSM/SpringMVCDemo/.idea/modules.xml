@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-01-FirstIntroduce/SpringMVC-01-Servlet.iml" filepath="$PROJECT_DIR$/SpringMVC-01-FirstIntroduce/SpringMVC-01-Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-02-hellomvc/SpringMVC-02-hellomvc.iml" filepath="$PROJECT_DIR$/SpringMVC-02-hellomvc/SpringMVC-02-hellomvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-02-repeat/SpringMVC-02-repeat.iml" filepath="$PROJECT_DIR$/SpringMVC-02-repeat/SpringMVC-02-repeat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-03-annotation/SpringMVC-03-annotation.iml" filepath="$PROJECT_DIR$/SpringMVC-03-annotation/SpringMVC-03-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-04-controller/SpringMVC-04-controller.iml" filepath="$PROJECT_DIR$/SpringMVC-04-controller/SpringMVC-04-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-05-json/SpringMVC-05-json.iml" filepath="$PROJECT_DIR$/SpringMVC-05-json/SpringMVC-05-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-06-ajax/SpringMVC-06-ajax.iml" filepath="$PROJECT_DIR$/SpringMVC-06-ajax/SpringMVC-06-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVCDemo.iml" filepath="$PROJECT_DIR$/SpringMVCDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fistrBuildSSM/fistrBuildSSM.iml" filepath="$PROJECT_DIR$/fistrBuildSSM/fistrBuildSSM.iml" />
+    </modules>
+  </component>
+</project>
