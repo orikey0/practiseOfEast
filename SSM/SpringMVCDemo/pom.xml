@@ -13,7 +13,22 @@
         <module>SpringMVC-02-hellomvc</module>
         <module>SpringMVC-02-repeat</module>
         <module>SpringMVC-03-annotation</module>
+        <module>SpringMVC-04-controller</module>
+        <module>SpringMVC-05-json</module>
+        <module>SpringMVC-06-ajax</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
