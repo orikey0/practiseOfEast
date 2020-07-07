@@ -12,4 +12,12 @@
     <insert id="addUser"  parameterType="com.mybatis.pojo.User">
         insert into USER (id,name,pwd) values (#{id},#{name},#{pwd});
 </insert>
+    <update id="updateUser" parameterType="com.mybatis.pojo.User">
+    update user set name = #{name},pwd = #{pwd}  where id=#{id};
+</update><delete id="deleteUserById" parameterType="int">
+    delete from user where id = #{id};
+</delete>
+    <insert id="addUser2" parameterType="map">
+    insert into user (id,pwd) values (#{id},#{pwd});
+</insert>
 </mapper>
