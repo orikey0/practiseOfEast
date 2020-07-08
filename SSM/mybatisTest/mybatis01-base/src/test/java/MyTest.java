@@ -1,4 +1,6 @@
+import com.mapper.StudentMapper;
 import com.mapper.UserMapper;
+import com.pojo.Student;
 import com.pojo.User;
 import com.util.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
@@ -48,6 +50,14 @@ public class MyTest {
     public void test_update(){
         userMapper.updateUser(new User(5,"李厚华","李厚华"));
         sqlSession.commit();
+    }
+
+    @Test
+    public void test_getStudent(){
+        StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
+        for (Student student : studentMapper.getStudent()) {
+            System.out.println(student);
+        }
     }
     public void finalize(){
         sqlSession.close();

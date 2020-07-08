@@ -23,4 +23,16 @@ public class MyTest {
     public void test_GetTeacher(){
         System.out.println(teacherMapper.getTeacher(1));
     }
+    @Test
+    public void test_getStudent(){
+        for (Student student : studentMapper.getStudent()) {
+            System.out.println(student);
+        }
+    }
+    @Test
+    public void test_getStudent2(){
+        for (Student student : studentMapper.getStudent_2()) {
+            System.out.println(student);
+        }
+    }
 }

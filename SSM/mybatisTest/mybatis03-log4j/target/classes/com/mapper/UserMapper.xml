@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.UserMapper">
+   <select id="userList" resultType="com.pojo.User">
+   select * from user ;
+</select>
+<select id="getUserById" resultType="com.pojo.User" parameterType="int">
+    select * from user where id = #{id};
+</select>
+<insert id="addUser" parameterType="com.pojo.User">
+    insert into user (id,name ,pwd) values
+    (#{id},#{name,jdbcType=VARCHAR},#{pwd,jdbcType=VARCHAR});;
+</insert>
+<delete id="deleteUserById" parameterType="int">
+delete from user where id = #{id};
+</delete>
+<update id="updateUser" parameterType="com.pojo.User">
+    update user set name = #{name},pwd = #{pwd} where id = #{id};
+</update>
+<select id="getUserByName" resultType="com.pojo.User">
+    select * from user where name like  concat('%',#{name},'%') ;
+</select>
+<select id="getUserNameByLimit" resultType="com.pojo.User" parameterType="map">
+    select * from user limit #{startIndex},#{lastIndex};
+</select>
+
+
+
+
+</mapper>
